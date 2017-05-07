@@ -1,0 +1,302 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #000;
+}
+
+
+
+.jumbotron {
+	        margin-top: 10px;
+	         font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	        background-image: url(http://eskipaper.com/images/bokeh-photography-wallpaper-1.jpg);
+			background-size: cover;
+	        height: 20%;
+}
+
+.container { 
+	        color: azure;
+	        font-size: 20px;
+	         text-align: center;
+	         width: 500px;
+            }
+
+.container-fluid {
+	 width: 100%;
+}
+
+.fullcontainer 
+{
+	width: 960px;
+	margin: auto;
+}
+.welcome {
+	       font-size: 20px;
+		   text-align: center;
+}
+
+.nav {
+	background-color: transparent;
+	
+}
+        
+.navbar {
+	      background-color: aliceblue;
+	      color: inherit;
+	      margin: 2%;
+	      font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	      text-align: center;
+	      
+	      
+	      
+}
+
+
+.active {
+	     background-color: dimgray;
+	     color: black;
+	      
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+ 
+}
+
+
+ul {
+	text-align: center;
+	margin-left: 30px;
+}
+
+
+.navbar .brand, .navbar .nav > li > a:hover {
+    color: #F56E6E;
+}
+
+.navbar navbar-inverse
+{ 
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+color: lightgoldenrodyellow;
+text-align: center;
+}
+
+.container-fluid {
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	outline-color: lightyellow;
+	border-radius: 10px;
+	text-align: center;
+		
+}
+
+
+#ntext{
+ color: wheat;
+  }
+
+.contact 
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white;
+	text-align: left;
+	font-size: 18px;
+	margin-top: 5%;
+	text-decoration: underline;
+	
+}
+
+p {
+	margin-left: 10%;
+	margin-top: 10%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 18px;
+	color: whitesmoke;
+}
+
+.btn btn-link
+{
+	font-size: 30px;
+}
+
+
+#myCarousel {
+	         height: 480px;
+	         width: 450px;
+	          margin-left: 30%;
+	          margin-top: 5%;
+	          margin-bottom: 5%;
+}
+
+.carousel-inner {
+	height: 480px;
+	width: 450px;
+}
+
+.item1 {
+	height: 480px;
+	width: 450px;
+}
+
+.item2 {
+	height: 480px;
+	width: 450px;
+}
+
+
+.details li {
+      list-style: none;
+    }
+    li {
+        margin-bottom:10px;
+        
+    }
+.row {
+	width: auto;
+}
+
+
+.sineadimg {
+	       width: 70%;
+	       height: 60%;
+	       margin-left: 100px;
+}
+
+.glyphicon glyphicon-earphone one {
+	text-align: left;
+}
+
+.telephone {
+text-align: left;
+}
+.email {
+	text-align: left;
+}
+.contactname {
+	text-align: center;
+	width: 40px;
+}
+
+.btn btn-link {
+	color: #F56E6E;
+	text-align: center;
+	font-size: 18px;
+}
+
+.text-center {
+	margin-right: 13%;
+}
+
+.list-group {
+	width: 30%;
+	margin-left: 10%;
+}
+
+.img-circle{
+	width: 500px;
+	height: 400px;
+	margin: 10px;
+}
+
+.featurette-heading {
+	margin-left: 10%;
+}
+
+
+.footer {
+  position: relative;
+  bottom: 10;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 5%;
+  background-color:transparent;
+}
+
+.footertext {
+	text-align: left;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+.page-header {
+	margin: 10px;
+}
+
+
+.row{
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+}
+
+
+.image-responsive {
+	width:700px;
+	height: 400px;
+}
+
+
+.image-thumbnail
+{
+	width:700px;
+	height: 400px;
+}
+
+#dublin
+{
+	margin-left:10%;
+	margin-top: 8%;
+	padding: 5px;
+}
+
+
+#morning
+{	
+	margin-right: 5%;
+	margin-top: 8%;
+	padding: 5px;
+}
+.img-responsiveA {
+	width:650px;
+	height:400px;
+}
+
+.portfolio-itemA {
+	width:500px;
+	height:300px;
+}
+
+.portfolio-itemB {
+	width:500px;
+	height:300px;
+}
+
+.img-responsiveC {
+	width:500px;
+	height:300px;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.portfolio-itemB{
+	width:500px;
+	height:300px;
+	margin-left:20px;
+}
+
+.page-headerA {
+	color: white;
+	text-decoration: underline;
+	
+}
+
+.red {
+	color:bisque;
+}
